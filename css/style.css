@@ -1,0 +1,116 @@
+
+body{
+	font-size: 14px;
+	font-family: "Open Sans";
+	margin-top:2%;
+}
+
+nav ul li{
+	float:right;
+	list-style: none;
+	padding: 1%;
+	color:#808080;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+
+nav ul li:hover{
+	background-color:#3eb0f7;
+	color:white;
+}
+
+.logo{
+	width: 100%;
+}
+
+.gris{
+	background-color: #808080;
+	background-size: cover;
+}
+
+.titulo{
+	font-size: 40px;
+	color:white;
+	margin: 10% 0% 5% 0%;
+	padding: 0% 40% 0% 0%;
+}
+
+.parrafo{
+	color:white;
+	margin-bottom: 15%;
+	padding: 0% 20% 0% 0%;
+	font-weight: 300;
+}
+
+.contacto{
+	background-color: #9a9a9a;
+	margin-top: 20%;
+	padding: 8%;
+	border-radius: 5%;
+}
+
+h1.text-center{
+	color:white;
+	margin-bottom: 4%;
+
+}
+
+.medida{
+	width: 100%;
+	padding: 2%;
+	margin-bottom: 5%;
+	
+}
+
+.enviar{
+	width: 100%;
+	background-color:#3eb0f7;
+	color:white; 
+	padding: 5%;
+	border:0;
+}
+
+.footer{
+	color:#9a9a9a;
+	margin-top: 2%;
+}
+
+.footer a{
+	text-decoration: none;
+}
+
+/*MEDIAQUERIE*/
+
+@media screen and (min-width: 535px) and (max-width: 824px) {
+ 
+.col-s12{
+	width: 100% !important;
+}
+
+.col-s6{
+	width: 50% !important;
+}
+
+.titulo {
+    font-size: 50px;
+    margin: 10% 0% 5% 0%;
+    padding: 0% 10% 0% 0%;
+}
+
+.parrafo {
+    margin-bottom: 5%;
+    margin-top: 15%;
+    padding: 0% 5% 0% 0%
+}
+
+.contacto {
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+  
+}
+
+}
+
+
